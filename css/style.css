@@ -1,0 +1,176 @@
+body {
+    background: url(../img/back.jpg) no-repeat center/cover;
+    margin: 0;
+    padding: 20px;
+    cursor: url(cursor.cur), auto;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.blok {
+    margin-bottom: 60px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    text-align: center;
+    width: 50%;
+}
+
+.emmet {
+    width: 50%;
+}
+
+.emmet,
+.text {
+    width: 100%;
+}
+
+.header {
+    background: url(../img/LEGO.jpg) center/cover;
+    padding: 50px 0;
+    margin: -10px -50px 20px;
+}
+
+.header p {
+    font-size: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    background: repeating-linear-gradient(#FF8000 0%,#C83200 25%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1,
+.film {
+    text-align: center;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 5px );
+    margin: 0;
+    color: ghostwhite;
+}
+
+.film {
+    text-align: center;
+    background: linear-gradient(#03A89E,#000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.lego1 {
+    width: 100%;
+}
+
+.stick {
+    border-bottom: 1px solid gray;
+    filter: drop-shadow(0 0 5px black);
+    margin: 50px 0 0;
+}
+
+.notname {
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rex {
+    display: flex;
+}
+
+.the-lego-movie-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-lego-movie-2 p {
+    display: inline-block;
+}
+
+.lego2 {
+    width: 100%;
+}
+
+.the-lego-movie h2,
+.the-lego-movie-2 h2 {
+    color: rgb(9, 9, 68);
+}
+
+
+.the-lego-movie p:hover,
+.the-lego-movie-2 p:hover {
+    color: rgb(20, 20, 119);
+}
+
+.paragraf:hover {
+    color: rgb(20, 20, 119);
+}
+
+.two {
+    text-align: center;
+}
+
+.person {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.person figure {
+    flex: 0 0 25%;
+    margin: 0;
+    padding: 25px 25px;
+    box-shadow: 10px 10px 20px #666;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: linear-gradient(transparent 60%,#bbb);
+}
+
+.person img {
+    height: 100px;
+}
+
+.video iframe {
+    flex: 0 0 25%;
+    box-shadow: 10px 10px 20px #666;
+    border-radius: 25px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    background: linear-gradient(transparent 60%,#bbb);
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+}
